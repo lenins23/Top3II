@@ -80,7 +80,7 @@ function loadImages(urls, callback) {
   // loading.
   var onImageLoad = function() {
     --imagesToLoad;
-    // If all the images are loaded call the callback.
+    
     if (imagesToLoad === 0) {
       callback(images);
     }
